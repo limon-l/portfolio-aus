@@ -552,12 +552,15 @@ footer .text span a:hover{
 
 @media (max-width: 500px){
   .home{
-    display: inline-block;
+    display: flex;
+    flex-direction: column-reverse;
   }
   .home-img img{
-    height: 70%;
-    width: 80%;
-    margin: 10px 10%;
+    height: 80%;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+      top: 20%;
   }
   .home .text-two{
     font-size: 55px;
