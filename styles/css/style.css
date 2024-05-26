@@ -560,7 +560,7 @@ footer .text span a:hover{
     width: 100%;
     margin: 10px 0;
     position: relative;
-      top: 20%;
+    top: 20%;
   }
   .home .text-two{
     font-size: 55px;
@@ -577,5 +577,8 @@ footer .text span a:hover{
   }
     .contact {
       height: 100%;
+    }
+    footer{
+      width: 100%;
     }
 }
